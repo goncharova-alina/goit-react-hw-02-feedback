@@ -1,9 +1,9 @@
 import React from 'react';
 import { Component } from 'react';
 import './App.css';
-import Section from './components/Section/Section';
-import Statistics from './components/Statistics/Statistics';
-import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
+import Section from './components/Section';
+import Statistics from './components/Statistics';
+import FeedbackOptions from './components/FeedbackOptions';
 import { FEEDBACK_OPTIONS } from '../src/data/constans';
 
 class App extends Component {
